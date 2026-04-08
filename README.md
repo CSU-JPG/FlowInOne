@@ -24,6 +24,8 @@
     <a href="https://huggingface.co/datasets/CSU-JPG/VPBench" style="text-decoration: none;">🌏 Benchmark</a> | 
     <a href="https://huggingface.co/CSU-JPG/FlowInOne" style="text-decoration: none;">🤗 Model</a>
   </p>
+  </div>
+  
 ## 📢 News
 
 - **[2026-4-8]**: **FlowInOne** has been officially released! 🎉 🎉 🎉
