@@ -48,6 +48,7 @@
   <img src="assets/teaser.png" width="40%" />
   <img src="assets/model_arch.png" width="55%" />
 </p>
+
 **Fig 1. Overview of the FlowInOne. We unify the conditions as visual input and form a simple image-in, image-out framework with a single model.** 
 
 ## 📊 Dataset Overview
