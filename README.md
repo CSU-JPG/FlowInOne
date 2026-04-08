@@ -288,7 +288,7 @@ Please send emails to **[junchaoyi52@gmail.com](mailto:junchaoyi52@gmail.com)** 
 
 This codebase is built upon the [CrossFlow](https://github.com/qihao067/CrossFlow).We would like to thank for their great work.
 
-## Star History
+## 💥 Star History
 
 If you find this project helpful or interesting, a star ⭐ would be greatly appreciated!
 
