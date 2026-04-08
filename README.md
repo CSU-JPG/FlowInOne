@@ -292,4 +292,4 @@ This codebase is built upon the [CrossFlow](https://github.com/qihao067/CrossFlo
 
 If you find this project helpful or interesting, a star ⭐ would be greatly appreciated!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=CSU-JPG/FlowInOne&type=date&legend=top-left)](https://www.star-history.com/#CSU-JPG/FlowInOne&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/image?repos=CSU-JPG/FlowInOne&type=Date)](https://www.star-history.com/#CSU-JPG/FlowInOne&Date)
