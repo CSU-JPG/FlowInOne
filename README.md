@@ -25,7 +25,7 @@
     <a href="https://huggingface.co/CSU-JPG/FlowInOne" style="text-decoration: none;">🤗 Model</a>
   </p>
   </div>
-  
+
 ## 📢 News
 
 - **[2026-4-8]**: **FlowInOne** has been officially released! 🎉 🎉 🎉
@@ -45,18 +45,18 @@
 ## 🌟 Project Overview
 
 <p align="center">
-  <img src="assets/teaser.png" width="35%" />
-  <img src="assets/model_arch.png" width="50%" />
+  <img src="assets/teaser.png" width="40%" />
+  <img src="assets/model_arch.png" width="55%" />
 </p>
-**Fig 1. Overview of the FlowInOne. We unify the conditions as visual input and form a simple image-in, image-out framework with a single model. **
 
+**Fig 1. Overview of the FlowInOne. We unify the conditions as visual input and form a simple image-in, image-out framework with a single model. **
 ## 📊 Dataset Overview
 
 <p align="center">
   <img src="assets/dataset.png" width="60%" />
 </p>
-**Fig 2. We construct VisPrompt, a comprehensive dataset that covers wide spectrum of image-to-image generation, ranging from basic text-in-image generation to compositional editing, and further to physics-aware instruction following.**
 
+**Fig 2. We construct VisPrompt, a comprehensive dataset that covers wide spectrum of image-to-image generation, ranging from basic text-in-image generation to compositional editing, and further to physics-aware instruction following.**
 ## 🚀 Setup
 
 - **Environment setup**
