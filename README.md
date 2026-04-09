@@ -19,7 +19,7 @@
   <p align="center" style="font-size: 16px;">
     <a href="https://csu-jpg.github.io/FlowInOne.github.io/" style="text-decoration: none;">🌐 Homepage</a> | 
     <a href="https://github.com/CSU-JPG/FlowInOne" style="text-decoration: none;">💻 Code</a> | 
-    <a href="https://arxiv.org" style="text-decoration: none;">📄 Paper</a> | 
+    <a href="https://arxiv.org/pdf/2604.06757" style="text-decoration: none;">📄 Paper</a> | 
     <a href="https://huggingface.co/datasets/CSU-JPG/VisPrompt5M" style="text-decoration: none;">📁 Dataset</a> | 
     <a href="https://huggingface.co/datasets/CSU-JPG/VPBench" style="text-decoration: none;">🌏 Benchmark</a> | 
     <a href="https://huggingface.co/CSU-JPG/FlowInOne" style="text-decoration: none;">🤗 Model</a>
