@@ -211,7 +211,7 @@ def fid_inception_v3(ckpt_path=None):
     if ckpt_path is None:
         ckpt_path = "/path/to/inceptionckpt/pt_inception-2015-12-05-6726825d.pth"
     
-    state_dict = torch.load(ckpt_path, map_location="cpu")
+    state_dict = torch.load(ckpt_path, map_location="cpu", weights_only=True)
     inception.load_state_dict(state_dict)
     return inception
 

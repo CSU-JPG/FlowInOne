@@ -1,0 +1,186 @@
+{
+  "global_settings": {
+    "checkpoint_path": "checkpoints/flowinone_256px.pth",
+    "config_file": "configs/flowinone_training_demo.py",
+    "janus_model_path": "preparation/Janus-Pro-1B",
+    "default_cfg_scale": 7.0,
+    "default_sample_steps": 50,
+    "default_batch_size": 1,
+    "resolution": 256,
+    "gpu_id": 0
+  },
+  "source_images": {
+    "carnival_mask": "tests/source_images/carnival_mask.jpg",
+    "surreal_donkey": "tests/source_images/surreal_donkey.jpg",
+    "man_tablet": "tests/source_images/man_tablet.jpg",
+    "surreal_dinner": "tests/source_images/surreal_dinner.jpg",
+    "kirby_figurines": "tests/source_images/kirby_figurines.jpg"
+  },
+  "test_cases": [
+    {
+      "id": "carnival_01_steampunk",
+      "source_image": "carnival_mask",
+      "task_type": "text_in_image",
+      "instruction": "Transform this costume into a steampunk style outfit with brass gears and goggles",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "carnival_02_venice",
+      "source_image": "carnival_mask",
+      "task_type": "text_in_image",
+      "instruction": "Change the background to a Venice canal during sunset carnival celebration",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "carnival_03_pencil",
+      "source_image": "carnival_mask",
+      "task_type": "text_in_image",
+      "instruction": "Convert this into a detailed pencil sketch drawing",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "carnival_04_t2i",
+      "source_image": null,
+      "task_type": "text2image",
+      "instruction": "An elaborate carnival costume with a red and white ornate mask white sequined outfit with feathers in a grand hallway",
+      "skip_cross_atten": true,
+      "cfg_scale": 7.0,
+      "sample_steps": 50,
+      "bg_color": [255, 105, 180]
+    },
+    {
+      "id": "donkey_01_castle",
+      "source_image": "surreal_donkey",
+      "task_type": "text_in_image",
+      "instruction": "Change the setting to a medieval castle throne room with stone walls and torches",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "donkey_02_retriever",
+      "source_image": "surreal_donkey",
+      "task_type": "text_in_image",
+      "instruction": "Replace the donkey with a majestic golden retriever dog",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "donkey_03_oil_painting",
+      "source_image": "surreal_donkey",
+      "task_type": "text_in_image",
+      "instruction": "Transform this into an oil painting in the style of a Dutch master",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "donkey_04_textbox",
+      "source_image": "surreal_donkey",
+      "task_type": "text_box_edit",
+      "instruction": "birthday cake with candles",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50,
+      "bbox": [0.65, 0.05, 0.95, 0.35]
+    },
+    {
+      "id": "tablet_01_beach",
+      "source_image": "man_tablet",
+      "task_type": "text_in_image",
+      "instruction": "Change what is displayed on the tablet to a tropical beach scene",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "tablet_02_cabin",
+      "source_image": "man_tablet",
+      "task_type": "text_in_image",
+      "instruction": "Transform the modern office into a cozy cabin with wooden walls and fireplace",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "tablet_03_golden_hour",
+      "source_image": "man_tablet",
+      "task_type": "text_in_image",
+      "instruction": "Make this scene look like it was taken during golden hour with warm sunlight",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "dinner_01_picnic",
+      "source_image": "surreal_dinner",
+      "task_type": "text_in_image",
+      "instruction": "Transform the dinner setting into a beach picnic at sunset",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "dinner_02_cat",
+      "source_image": "surreal_dinner",
+      "task_type": "text_in_image",
+      "instruction": "Add a playful orange cat sitting on the table next to the roses",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "dinner_03_pop_art",
+      "source_image": "surreal_dinner",
+      "task_type": "text_in_image",
+      "instruction": "Convert this scene into a vibrant pop art style illustration",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "kirby_01_glass",
+      "source_image": "kirby_figurines",
+      "task_type": "text_in_image",
+      "instruction": "Make the figurines look like they are made of transparent crystal glass",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "kirby_02_forest",
+      "source_image": "kirby_figurines",
+      "task_type": "text_in_image",
+      "instruction": "Place these figurines in a magical forest scene with glowing mushrooms",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "kirby_03_creatures",
+      "source_image": "kirby_figurines",
+      "task_type": "text_in_image",
+      "instruction": "Transform these into real living creatures in a grassy meadow",
+      "skip_cross_atten": false,
+      "cfg_scale": 7.0,
+      "sample_steps": 50
+    },
+    {
+      "id": "kirby_04_t2i",
+      "source_image": null,
+      "task_type": "text2image",
+      "instruction": "Two cute Kirby characters with realistic human faces one copper colored and one white 3D rendered figures on a shelf",
+      "skip_cross_atten": true,
+      "cfg_scale": 7.0,
+      "sample_steps": 50,
+      "bg_color": [255, 105, 180]
+    }
+  ]
+}

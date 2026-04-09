@@ -165,10 +165,10 @@ class TrainState(object):
 
     def load(self, path):
         logging.info(f'load from {path}')
-        self.step = torch.load(os.path.join(path, 'step.pth'))
+        self.step = torch.load(os.path.join(path, 'step.pth'), weights_only=True)
         for key, val in self.__dict__.items():
             if key != 'step' and val is not None:
-                val.load_state_dict(torch.load(os.path.join(path, f'{key}.pth'), map_location='cpu'))
+                val.load_state_dict(torch.load(os.path.join(path, f'{key}.pth'), map_location='cpu', weights_only=True))
 
     def resume(self, ckpt_root, step=None):
         if not os.path.exists(ckpt_root):
@@ -213,7 +213,7 @@ def initialize_train_state(config, device):
     if hasattr(config, 'pretrained_path') and config.pretrained_path:
         try:
             print(f"Loading pretrained weights from {config.pretrained_path}...")
-            pretrained_dict = torch.load(config.pretrained_path, map_location='cpu')
+            pretrained_dict = torch.load(config.pretrained_path, map_location='cpu', weights_only=True)
             model_dict = nnet.state_dict()
             
             matched_dict = {}

@@ -420,7 +420,7 @@ class FrozenAutoencoderKL(nn.Module):
         self.post_quant_conv = torch.nn.Conv2d(embed_dim, ddconfig["z_channels"], 1)
         self.embed_dim = embed_dim
         self.scale_factor = scale_factor
-        m, u = self.load_state_dict(torch.load(pretrained_path, map_location='cpu'))
+        m, u = self.load_state_dict(torch.load(pretrained_path, map_location='cpu', weights_only=True))
         assert len(m) == 0 and len(u) == 0
         self.eval()
         self.requires_grad_(False)

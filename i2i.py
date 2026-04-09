@@ -104,7 +104,9 @@ def evaluate(config):
     nnet = utils.get_nnet(**config.nnet)
     nnet = accelerator.prepare(nnet)
     logging.info(f'Loading nnet from {config.nnet_path}')
-    accelerator.unwrap_model(nnet).load_state_dict(torch.load(config.nnet_path, map_location='cpu'))
+    accelerator.unwrap_model(nnet).load_state_dict(
+        torch.load(config.nnet_path, map_location='cpu', weights_only=True)
+    )
     nnet.eval()
 
     autoencoder = libs.autoencoder.get_model(**config.autoencoder)
@@ -114,7 +116,7 @@ def evaluate(config):
     def decode(_batch):
         return autoencoder.decode(_batch)
 
-    model_path = "/path/to/Janus-Pro-1B/"
+    model_path = os.environ.get("JANUS_MODEL_PATH", "/path/to/Janus-Pro-1B/")
     logging.info(f'Loading Janus VLM from {model_path}')
     vl_chat_processor: VLChatProcessor = VLChatProcessor.from_pretrained(model_path)
     vl_gpt: MultiModalityCausalLM = AutoModelForCausalLM.from_pretrained(
