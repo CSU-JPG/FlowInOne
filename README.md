@@ -276,7 +276,11 @@ generated/
 If you find our work can be helpful, we would appreciate your citation:
 
 ```bibtex
-@misc{
+@article{yi2026flowinoneunifyingmultimodalgenerationimagein,
+      title={FlowInOne:Unifying Multimodal Generation as Image-in, Image-out Flow Matching}, 
+      author={Junchao Yi and Rui Zhao and Jiahao Tang and Weixian Lei and Linjie Li and Qisheng Su and Zhengyuan Yang and Lijuan Wang and Xiaofeng Zhu and Alex Jinpeng Wang},    
+      journal={arXiv preprint arXiv:2604.06757},
+      year={2026}
 }
 ```
 
