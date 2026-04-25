@@ -7,14 +7,13 @@
   <p align="center" style="font-size: 15px;">
     <span style="color:#E74C3C; font-weight: bold;">TL;DR:</span> <strong>The first vision-centric image-in, image-out image generation model.</strong>
   </p>
-
   <p align="center" style="font-size: 14px;">
-    <a href="https://github.com/Junc1i">Junchao Yi</a><sup>1*</sup>, <a href="https://ruizhaocv.github.io/">Rui Zhao</a><sup>3*</sup>, <a href="https://github.com/accebet">Jiahao Tang</a><sup>2*</sup>, <a href="https://scholar.google.com/citations?hl=en&user=b2pGch8AAAAJ">Weixian Lei</a><sup>5</sup>, <a href="https://scholar.google.com/citations?user=WR875gYAAAAJ&hl=en">Linjie Li</a><sup>6</sup>, <br>
+    <a href="https://github.com/Junc1i">Junchao Yi</a><sup>1*</sup>, <a href="https://ruizhaocv.github.io/">Rui Zhao</a><sup>3*</sup>, <a href="https://github.com/accebet">Jiahao Tang</a><sup>2*</sup>, <a href="https://scholar.google.com/citations?hl=en&user=b2pGch8AAAAJ">Weixian Lei</a><sup>3</sup>, <a href="https://scholar.google.com/citations?user=WR875gYAAAAJ&hl=en">Linjie Li</a><sup>6</sup>, <br>
     <a href="https://github.com/sqs-ustc/">Qisheng Su</a><sup>4</sup>, <a href="https://zyang-ur.github.io/">Zhengyuan Yang</a><sup>6</sup>, <a href="https://www.microsoft.com/en-us/research/people/lijuanw/">Lijuan Wang</a><sup>6</sup>, <a href="https://scholar.google.com/citations?hl=en&user=-bk1CrcAAAAJ">Xiaofeng Zhu</a><sup>1†</sup>, <a href="https://fingerrec.github.io/">Alex Jinpeng Wang</a><sup>2†</sup>
   </p>
   <p align="center" style="font-size: 13px;">
     <sup>1</sup> University of Electronic Science and Technology of China, &nbsp; <sup>2</sup> Central South University <br>
-    <sup>3</sup> National University of Singapore, &nbsp; <sup>4</sup> University of Science and Technology of China, &nbsp; <sup>5</sup> Tencent, &nbsp; <sup>6</sup> Microsoft
+    <sup>3</sup> National University of Singapore, &nbsp; <sup>4</sup> University of Science and Technology of China, &nbsp; <sup>5</sup> Microsoft
   </p>
   <p align="center" style="font-size: 16px;">
     <a href="https://csu-jpg.github.io/FlowInOne.github.io/" style="text-decoration: none;">🌐 Homepage</a> | 
@@ -24,6 +23,7 @@
     <a href="https://huggingface.co/datasets/CSU-JPG/VPBench" style="text-decoration: none;">🌏 Benchmark</a> | 
     <a href="https://huggingface.co/CSU-JPG/FlowInOne" style="text-decoration: none;">🤗 Model</a>
   </p>
+
   </div>
 
 ## 📢 News
