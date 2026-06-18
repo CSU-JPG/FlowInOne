@@ -27,7 +27,7 @@
   </div>
 
 ## 📢 News
-
+- **[2026-6-18]**: **FlowInOne** accepted by ECCV 2026💥
 - **[2026-4-8]**: **FlowInOne** has been officially released! 🎉 🎉 🎉
 
 ## 📑 Table of Contents
