@@ -291,5 +291,3 @@ Please send emails to **[junchaoyi52@gmail.com](mailto:junchaoyi52@gmail.com)** 
 ## 🙏 Acknowledgements
 
 This codebase is built upon the [CrossFlow](https://github.com/qihao067/CrossFlow).We would like to thank for their great work.
-
-https://www.star-history.com/#CSU-JPG/FlowInOne&Date)
